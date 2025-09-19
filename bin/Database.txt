@@ -1,0 +1,4 @@
+BrandAPowerUsage: 10.0
+BrandABatteryConsumption: 5.5
+BrandBPowerUsage: 7.2
+BrandBBatteryConsumption: 3.4

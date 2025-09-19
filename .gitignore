@@ -1,0 +1,23 @@
+# Compiled class files
+*.class
+
+# Packaged application archives
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+nbproject/
+.vscode/
+
+# Operating System and temporary files
+.DS_Store
+Thumbs.db
+hs_err_pid*
+*.log
+*.tmp
