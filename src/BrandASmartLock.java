@@ -6,7 +6,7 @@ public class BrandASmartLock extends SmartLock {
     @Override
     public void setBatteryConsumption() {
         // file path and name
-        String file_path = "Database.txt";
+        String file_path = "src/Database.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file_path))) {
             String line; // string containing the line read from file
@@ -15,6 +15,8 @@ public class BrandASmartLock extends SmartLock {
                 if(line.contains("BrandABatteryConsumption")) {
                     String[] line_index = line.split(" "); // split number and descriptor
                     this.battery_consumption = Double.parseDouble(line_index[1]);
+                    System.out.println("Found data in database.");
+                    System.out.println("Setting battery consumption to: " + this.battery_consumption);
                 }
             }
         } catch (IOException e) {
