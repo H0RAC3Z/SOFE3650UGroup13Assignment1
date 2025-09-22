@@ -16,7 +16,7 @@ public class BrandASmartLock extends SmartLock {
                     String[] line_index = line.split(" "); // split number and descriptor
                     this.battery_consumption = Double.parseDouble(line_index[1]);
                     System.out.println("Found data in database.");
-                    System.out.println("Setting battery consumption to: " + this.battery_consumption);
+                    System.out.println("Setting battery consumption to: " + this.battery_consumption + ".");
                 }
             }
         } catch (IOException e) {

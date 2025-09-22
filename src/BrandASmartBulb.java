@@ -16,7 +16,7 @@ public class BrandASmartBulb extends SmartBulb {
                     String[] line_index = line.split(" "); // split number and descriptor
                     this.power_usage = Double.parseDouble(line_index[1]);
                     System.out.println("Found data in database.");
-                    System.out.println("Setting power usage to: " + this.power_usage);
+                    System.out.println("Setting power usage to: " + this.power_usage + ".");
                 }
             }
         } catch (IOException e) {
