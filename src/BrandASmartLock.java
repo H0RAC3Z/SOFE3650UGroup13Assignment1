@@ -2,10 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class BrandASmartLock implements SmartLock {
-    // defines smart lock's battery consumption
-    private double battery_consumption = 0.0;
-
+public class BrandASmartLock extends SmartLock {
     @Override
     public void setBatteryConsumption() {
         // file path and name

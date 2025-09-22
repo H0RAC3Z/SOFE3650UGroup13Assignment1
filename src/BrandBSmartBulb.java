@@ -2,10 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class BrandBSmartBulb implements SmartBulb {
-    // defines smart bulb's power usage
-    private double power_usage = 0.0;
-
+public class BrandBSmartBulb extends SmartBulb {
     @Override
     public void setPowerUsage() {
         // file path and name
