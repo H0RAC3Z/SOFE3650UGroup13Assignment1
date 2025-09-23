@@ -31,4 +31,8 @@ Functions the same as setPowerUsage() but is made for smart locks instead.
 We put the main function to be run in TestDriver in order to create both factories and test them by creating a bulb from brand a and a lock from brand b. There are System.out.println functions spread throughout for visibility on the terminal end.
 
 Here is the output from TestDriver.java:
+
 ![alt text](test_output.png)
+
+## UML Diagram
+![alt text](Screenshot 2025-09-22 235706.png)
